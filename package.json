@@ -1,19 +1,19 @@
 {
   "name": "web_rtc",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@prisma/client": "^5.7.0",
     "bcrypt": "^5.1.1",
     "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.7",
     "prisma": "^5.7.0",
     "sqlite3": "^5.1.6"
   }

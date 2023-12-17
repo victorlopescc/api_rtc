@@ -1,10 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const EventController = require('../controllers/EventController');
-const authMiddleware = require('../utils/authMiddleware');
+const eventController = require('../controllers/eventController');
 
-router.post('/create', authMiddleware, EventController.create);
-router.get('/list', EventController.list);
-router.get('/:eventId', EventController.getById);
+router.post('/create', eventController.createEvent);
+
+router.get('/:eventId/participants', eventController.getEventParticipants);
 
 module.exports = router;

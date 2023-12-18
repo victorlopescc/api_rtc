@@ -112,7 +112,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\victo\\Desktop\\Work\\JavaScript\\web_rtc\\src\\generated\\client",
+      "value": "C:\\Users\\victo\\Desktop\\Work\\JavaScript\\api_rtc\\src\\generated\\client",
       "fromEnvVar": null
     },
     "config": {

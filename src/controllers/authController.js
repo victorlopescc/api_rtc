@@ -39,10 +39,11 @@ const authController = {
             const passwordMatch = await bcrypt.compare(password, user.password);
 
             if (passwordMatch) {
-                res.json({ userId: user.id, email: user.email });
+                res.json({ success: true, userId: user.id, email: user.email });
             } else {
-                res.status(401).json({ error: 'Invalid password.' });
+                res.json({ success: false, error: 'Invalid password.' });
             }
+
         } catch (error) {
             console.error(error);
             res.status(500).json({ error: 'Error logging in.' });

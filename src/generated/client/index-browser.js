@@ -111,21 +111,6 @@ exports.Prisma.UserScalarFieldEnum = {
   password: 'password'
 };
 
-exports.Prisma.EventScalarFieldEnum = {
-  id: 'id',
-  title: 'title',
-  datetime: 'datetime',
-  duration: 'duration',
-  organizerId: 'organizerId'
-};
-
-exports.Prisma.ParticipantScalarFieldEnum = {
-  id: 'id',
-  name: 'name',
-  email: 'email',
-  eventId: 'eventId'
-};
-
 exports.Prisma.SortOrder = {
   asc: 'asc',
   desc: 'desc'
@@ -133,9 +118,7 @@ exports.Prisma.SortOrder = {
 
 
 exports.Prisma.ModelName = {
-  User: 'User',
-  Event: 'Event',
-  Participant: 'Participant'
+  User: 'User'
 };
 
 /**

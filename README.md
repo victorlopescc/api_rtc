@@ -1,3 +1,6 @@
+Obter pacotes:
+npm install
+
 Criar o banco:
 npx prisma generate
 npx prisma db push
